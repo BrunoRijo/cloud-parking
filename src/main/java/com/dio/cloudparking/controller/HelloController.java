@@ -13,5 +13,10 @@ public class HelloController {
 		return "Hello World";
 	}
 	
+	@GetMapping("/Bruno")
+	public String helloBruno() {
+		return "Bruno";
+	}
+	
 
 }
